@@ -39,7 +39,7 @@ SX128XLT LT;                                                   //create a librar
 uint8_t TXPacketL;
 uint32_t TXPacketCount, startmS, endmS;
 
-uint8_t buff[] = "Missatge enviat";
+uint8_t buff[] = "AAAAAAAAAA"; // 10 bytes
 
 uint32_t RXpacketCount;
 uint32_t errors;
